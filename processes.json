@@ -1,0 +1,17 @@
+{
+  "apps": [{
+      "name": "fs-order",
+      "script": "./dist/index.js",
+      "exec_mode": "cluster",
+      "env_dev": {
+          "NODE_ENV": "dev"
+      },
+      "env_prod": {
+          "NODE_ENV": "prod"
+      },
+      "env_huidu": {
+          "NODE_ENV": "huidu"
+      },
+      "instances": "max"
+  }]
+}
