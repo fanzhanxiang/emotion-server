@@ -23,7 +23,7 @@ export class Address {
 }
 
 export class AddAddressBean {
-  cardNo : string; //艺龙卡号
+  cardNo : string; //卡号
   postCode : string; //地址邮编
   country : string; //地址国家
   province : string; //省份

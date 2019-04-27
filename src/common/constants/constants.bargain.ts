@@ -14,9 +14,9 @@ export const GUID_SUBFIX: string ="barginactivityid29";
 export const APPLYDESC_1: string ="申领返现";
 export const APPLYDESCDETAIL_1: string ="恭喜您，已成功申领返现！";
 export const APPLYDESC_2: string ="核实入住";
-export const APPLYDESCDETAIL_2: string="艺龙已收到您的真实入住信息。";
+export const APPLYDESCDETAIL_2: string="已收到您的真实入住信息。";
 export const APPLYDESC_3: string ="返现到账";
-export const APPLYDESCDETAIL_3: string ="艺龙返现已到账";
+export const APPLYDESCDETAIL_3: string ="返现已到账";
 export const APPLYDESC_4: string ="返现失败";
 export const APPLYDESCDETAIL_4: string ="十分抱歉您的返现存在问题，如果您有疑问，建议您拨打客服电话咨询";
 //申领状态下的tip文案

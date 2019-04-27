@@ -71,7 +71,7 @@ export class AddressesController extends BaseController {
         } = userInfo; //登录获取cardNo
 
         let request = new this.business.addresses.AddAddressRequest();
-        request.cardNo = cardNo; //艺龙卡号
+        request.cardNo = cardNo; //卡号
         request.postCode = addBean.postArea; //地址邮编
         request.country = addBean.country; //地址国家
         request.province = addBean.province; //省份

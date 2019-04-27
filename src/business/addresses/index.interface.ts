@@ -24,7 +24,7 @@ export class Address {
 }
 
 export class AddAddressRequest {
-  cardNo : string; //艺龙卡号
+  cardNo : string; //卡号
   postCode : string; //地址邮编
   country : string; //地址国家
   province : string; //省份
@@ -51,7 +51,7 @@ export class AddAddressResponse {
 }
 
 export class DeleteAddressRequest {
-  cardNo : string; //艺龙卡号
+  cardNo : string; //卡号
   addressId : string; //地址ID
 }
 export class DeleteAddressResponse {

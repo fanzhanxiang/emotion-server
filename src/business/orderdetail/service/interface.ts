@@ -470,7 +470,7 @@ export class OrderDetailRequest{
     
     faceValue:number; //红包面值
     rechargeTypeName:string; //结算类型名字
-    rechargeType:number; //结算类型 103112:老通用红包, 103114:预付酒店红包, 103100:艺龙奖励, 103099:返现过期撤销, 103098:通用红包（微信）, 103095:火车票红包, 103094:酒店红包, 103093:如家酒店红包, 103089:机票专用红包, 103092:铂涛专属红包, 103090:特色房源房费
+    rechargeType:number; //结算类型 103112:老通用红包, 103114:预付酒店红包, 103100:奖励, 103099:返现过期撤销, 103098:通用红包（微信）, 103095:火车票红包, 103094:酒店红包, 103093:如家酒店红包, 103089:机票专用红包, 103092:铂涛专属红包, 103090:特色房源房费
     recordId:number; //红包ID
     incomeId:number; //收入ID
     validDate:string; //红包的有效期
@@ -576,7 +576,7 @@ export class OrderDetailRequest{
     cancelType:number; //取消类型:1不可取消,2电话可取消,3限时免费取消,4限时扣罚金取消,5不限时免费取消
     cancelStatus:number; //取消状态：1超时,2未超时
     invoiceType:number; //发票类型：1电子发票,2纸质普通发票,3纸质专用发票
-    invoiceChannel:number; //开发票渠道：1酒店开具,2艺龙开具
+    invoiceChannel:number; //开发票渠道：1酒店开具,2开具
     invoiceStatus:number; //开发票状态：1未开具（电子）,2已开具（电子）,3待邮寄（纸质）,4已邮寄（纸质),5未开具（纸质）
     invoiceWay:number; //发票开具类型：1补开,2合开,3一张多开,4下单开
     cashBackCode:number; //返现状态编码
